@@ -44,8 +44,7 @@ export default function Insights() {
                   <div className="w-10 h-10 rounded-full bg-[#b80a2c] text-white flex items-center justify-center font-semibold">{i + 1}</div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Principle {i + 1}</h3>
-                  <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">{p}</p>
+                  <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">{p}</p>
                 </div>
               </div>
             </div>
