@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md font-medium transition-colors;
+  }
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary/90;
+  }
+  .chat-message {
+    @apply p-4 rounded-lg mb-4 max-w-[80%];
+  }
+  .chat-message-user {
+    @apply bg-primary text-white ml-auto;
+  }
+  .chat-message-bot {
+    @apply bg-gray-100 text-gray-900;
+  }
+}

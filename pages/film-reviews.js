@@ -1,0 +1,99 @@
+import { motion } from 'framer-motion'
+import reviewsData from '../data/reviews.json'
+import SEO from '../components/SEO'
+
+export default function FilmReviews() {
+  // Explicit list and order of reviews to display on this page
+  const focusedTitles = [
+    'Stalker (Russian)',
+    'All we imagine as light (Indian)',
+    'Bicycle Thieves (Italian)',
+    'Cinema Paradiso (Italian)',
+    'Amores de Chumbo (Portuguese)',
+    'Pather Panchali (Bengali)',
+    'Kottukaali (Tamil)',
+    'Visaranai (Tamil)'
+    ,
+    // Additional cards requested by user
+    'Dragon (Tamil)',
+    'Fandry (Marati)',
+    'Viduthalai (Tamil)',
+    'Badhaai Ho (Hindi)',
+    'Pariyerum Perumal (Tamil)',
+    'Newton (Hindi)',
+    'Merkku Thodarchi Malai (Tamil)',
+    'Sairat (Marati)',
+    'Ner Konda Paarvai (Tamil)',
+    'Baahubali (Telugu)',
+    'Super Deluxe (Tamil)',
+    'Jailer (Tamil)',
+    'Ponniyin Selvan (Tamil)',
+    'Jai Bhim (Tamil)',
+    '96 (Tamil)',
+    'Vikram Vedha (Tamil)',
+    'Kaakka Muttai (Tamil)',
+    'Ok Kanmani (Tamil)',
+    'Darbar (Tamil)',
+    'Asuran (Tamil)',
+    'Kaapaan (Tamil)',
+    'Peranbu (Tamil)',
+    '2.0 (Tamil)',
+    'Padmavat (Hindi)'
+  ]
+
+  const posts = focusedTitles.map((t) => reviewsData.find((r) => r.title === t)).filter(Boolean)
+
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      <SEO title="Film Reviews" description="Film reviews and criticism — essays and short takes on cinema from around the world." url="/film-reviews" image="/images/og-image.svg" />
+      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Film Reviews</h1>
+  <p className="text-base sm:text-lg text-gray-600">I love studying and analysing films. My film reviews have been published in Huffpost.</p>
+      </motion.div>
+
+      {/* Featured review (styled like Insights featured article) */}
+      <section className="mb-8">
+        <a
+          href="https://vgthinks.medium.com/delving-into-film-classics-fbeeab916b9f"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group rounded-lg shadow-lg hover:shadow-2xl p-8 transition-all bg-gradient-to-br from-white to-gray-50 w-full"
+        >
+          <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 group-hover:text-[#b80a2c] transition-colors mb-4">
+            Review of Movie Classics
+          </h3>
+          <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+            After being tired of watching non inventive Tamil films where the directors believe that ‘Gangsters’ are the only character vehicles to showcase heroism and heroes, I decided to stop watching these films and instead delve into film classics
+          </p>
+          <span className="inline-block px-3 py-1 bg-[#b80a2c] text-white text-sm font-semibold rounded-full">
+            Featured Review
+          </span>
+        </a>
+      </section>
+
+      <section>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
+          {posts.map((post) => (
+            <a
+              key={post.title}
+              href={post.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group rounded-lg border border-gray-200 p-5 shadow-md hover:shadow-xl transition-all"
+            >
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-900 group-hover:text-[#b80a2c] transition-colors leading-snug line-clamp-2 min-h-[3.5rem] max-w-[18ch]">
+                {post.title}
+              </h3>
+              {post.date && (
+                <p className="text-xs sm:text-sm text-gray-500 mt-1">{post.date}</p>
+              )}
+              {post.excerpt && (
+                <p className="text-gray-600 text-sm sm:text-base mt-2 line-clamp-3">{post.excerpt}</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+  )
+}
