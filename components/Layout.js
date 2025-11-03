@@ -17,12 +17,11 @@ export default function Layout({ children }) {
         <link rel="canonical" href="https://your-domain.com" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Middle Age Reinvention" />
-        <meta name="description" content="Middle Age Reinvention" />
-        <meta property="og:description" content="        <meta name="description" content="Middle Age Reinvention" />
-" />
-        <meta property="og:type" content="website" />
-  <meta property="og:image" content="/images/og-image.svg" />
+       <meta property="og:title" content="Middle Age Reinvention" />
+<meta name="description" content="Middle Age Reinvention" />
+<meta property="og:description" content="Middle Age Reinvention" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="/images/og-image.svg" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
