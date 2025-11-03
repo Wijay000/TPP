@@ -9,24 +9,11 @@ export default function Interests() {
       type: "article"
     },
     {
-      title: "Community",
+      title: "90 secs",
       url: "https://web-canvas-tpp.replit.app/",
       thumbnail: "/images/Interests - TPP.jpg",
       type: "article"
     },
-    {
-      title: "Creatives",
-      url: "https://drive.google.com/file/d/10OPjrnEft3h1SP8g1uQnV2Ixtpo7KOci/view?usp=drive_link",
-      thumbnail: "/images/Interests - Creatives.jpg",
-      type: "article"
-    },
-    {
-      title: "Film Reviews",
-      url: "/film-reviews",
-      // use the public image with proper casing and spacing
-      thumbnail: "/images/Interests - Movies.jpg",
-      type: "article"
-    }
   ];
 
   return (
