@@ -9,6 +9,8 @@ module.exports = {
       colors: {
         primary: '#0070f3',
         secondary: '#00a8ff',
+        // Logo color token (sampled from public/images/TPP - Logo.png)
+        'logo-green': '#00511b',
       },
       typography: {
         DEFAULT: {
