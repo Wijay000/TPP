@@ -14,8 +14,24 @@ export default function Insights() {
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
       <SEO title="The Community" description="Community principles for participation and practice." url="/insights" image="/images/og-image.svg" />
 
-      <header className="mb-10 sm:mb-12 text-center">
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">6 Community Principles</h1>
+      <section className="mb-8">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">“What if your second act could be your strongest yet?”</h2>
+
+        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+          <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+            There comes a moment in midlife when the old rhythms stop fitting. Fitness isn’t just about strength. It’s about reclaiming your energy, your confidence, your spark.
+            {'\n'}
+            If you’re a mid- or late-career professional ready to reinvent your path, this is your space.
+            {'\n'}
+            A place to find new friends who get it, a community that listens without judgment, and a circle that challenges you to grow beyond comfort.
+            {'\n'}
+            {'\n'}Because reinvention begins where routine ends.
+          </p>
+        </div>
+      </section>
+
+      <header className="mb-10 sm:mb-12">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 text-left">6 Community Principles</h1>
         <p className="text-base sm:text-lg text-gray-600">Guidelines to help you contribute, learn and grow with the group.</p>
       </header>
 
