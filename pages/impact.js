@@ -203,10 +203,10 @@ export default function Impact() {
         className="text-center mb-12"
       >
         <h1 className="text-4xl font-bold text-gray-900 mb-4">
-          Impact
+          Initiatives
         </h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Select impact stories across Europe, Americas and Asia
+          Select initiatives across Europe, Americas and Asia
         </p>
       </motion.div>
 
