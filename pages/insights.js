@@ -17,16 +17,29 @@ export default function Insights() {
       <section className="mb-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
           {/* Left: video card */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="w-full aspect-video bg-black">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/ppQPiU-6PCE"
-                title="Community intro video"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+          <div className="flex justify-center md:justify-start">
+            <div className="relative rounded-3xl shadow-xl overflow-hidden border border-gray-200" style={{maxWidth: '380px', width: '100%'}}>
+              {/* notch */}
+              <div className="absolute top-2 left-1/2 -translate-x-1/2 z-10">
+                <div className="w-20 h-2 bg-gray-800 rounded-full opacity-90" />
+              </div>
+
+              {/* screen area - portrait phone aspect */}
+              <div style={{aspectRatio: '9/19.5', background: '#000'}}>
+                <iframe
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/ppQPiU-6PCE"
+                  title="Community intro video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+
+              {/* bottom speaker / home indicator */}
+              <div className="absolute bottom-3 left-1/2 -translate-x-1/2">
+                <div className="w-14 h-1 bg-gray-200 rounded-full opacity-30" />
+              </div>
             </div>
           </div>
 
