@@ -41,6 +41,15 @@ export default function Insights() {
                 <div className="w-14 h-1 bg-gray-200 rounded-full opacity-30" />
               </div>
             </div>
+            {/* Apply button below phone frame */}
+            <div className="mt-4 flex justify-center md:justify-start">
+              <a
+                href="#"
+                className="inline-flex items-center px-6 py-2 bg-[#b80a2c] hover:bg-[#9e081f] text-white font-semibold rounded-lg shadow-md transition-colors"
+              >
+                Apply
+              </a>
+            </div>
           </div>
 
           {/* Right: heading + text */}
