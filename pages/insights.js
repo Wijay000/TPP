@@ -15,7 +15,7 @@ export default function Insights() {
       <SEO title="The Community" description="Community principles for participation and practice." url="/insights" image="/images/og-image.svg" />
 
       <section className="mb-8">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">“What if your second act could be your strongest yet?”</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 text-left">“What if your second act could be your strongest yet?”</h2>
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-6">
           <p className="text-gray-700 leading-relaxed whitespace-pre-line">
