@@ -110,10 +110,10 @@ export default function Layout({ children }) {
               className="absolute top-full right-0 mt-2 mr-4 bg-white rounded-lg shadow-xl border border-gray-100 py-2 min-w-[200px]"
             >
               <Link href="/insights" onClick={() => setIsMenuOpen(false)}>
-                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">The Community</span>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Community</span>
               </Link>
               <Link href="/ideas" onClick={() => setIsMenuOpen(false)}>
-                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">The Principles</span>
+                <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Principles</span>
               </Link>
               <Link href="/interests" onClick={() => setIsMenuOpen(false)}>
                 <span className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors cursor-pointer">Initiatives</span>
