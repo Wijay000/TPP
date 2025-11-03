@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
 
         <p className="text-2xl md:text-xl lg:text-2xl text-gray-700 mb-3 md:mb-4 leading-relaxed">
-          Join the Community.
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSejyrmbr8n50AGP6UpAQoSjiEM-0hCekJ5LdTNs6cn-KDLgYQ/viewform?fbzx=3478091300017295426">Join the Community.</a>
         </p>
       </motion.div>
     </div>
