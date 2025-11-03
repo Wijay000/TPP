@@ -12,6 +12,9 @@ export default function Home() {
         transition={{ duration: 0.8 }}
         className="text-center max-w-5xl px-4"
       >
+          <div className="mb-6">
+            <img src="/images/TPP - Logo.png" alt="TPP Logo" className="mx-auto w-32 sm:w-40 md:w-48" />
+          </div>
         <h1 className="text-6xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold text-gray-900 mb-6 md:mb-10 leading-tight md:leading-relaxed lg:whitespace-nowrap">
           Reinvent Yourself. Start Today.
         </h1>
