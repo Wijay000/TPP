@@ -22,7 +22,7 @@ export default function Ideas() {
               <div key={i} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-10 h-10 rounded-full bg-[#b80a2c] text-white flex items-center justify-center font-semibold">{i + 1}</div>
+                    <div className="w-10 h-10 rounded-full bg-logo-green text-white flex items-center justify-center font-semibold">{i + 1}</div>
                   </div>
                   <div>
                     <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">{p}</p>
