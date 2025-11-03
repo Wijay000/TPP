@@ -9,23 +9,25 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Engage with Vijay A. Raju</title>
+        <title>Middle Age Reinvention</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Expert guidance in leadership and AI-driven growth" />
+        <meta name="description" content="Middle Age Reinvention" />
         <meta name="robots" content="index,follow" />
         {/* Replace https://your-domain.com with your production URL */}
         <link rel="canonical" href="https://your-domain.com" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="Engage with Vijay A. Raju" />
-        <meta property="og:description" content="Expert guidance in leadership and AI-driven growth" />
+        <meta property="og:title" content="Middle Age Reinvention" />
+        <meta name="description" content="Middle Age Reinvention" />
+        <meta property="og:description" content="        <meta name="description" content="Middle Age Reinvention" />
+" />
         <meta property="og:type" content="website" />
   <meta property="og:image" content="/images/og-image.svg" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Engage with Vijay A. Raju" />
-        <meta name="twitter:description" content="Expert guidance in leadership and AI-driven growth" />
+        <meta name="twitter:title" content="Middle Age Reinvention" />
+        <meta name="description" content="Middle Age Reinvention" />
   <meta name="twitter:image" content="/images/og-image.svg" />
 
         {/* JSON-LD Organization (replace url and sameAs entries with your real links) */}
@@ -33,7 +35,7 @@ export default function Layout({ children }) {
           {`{
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Vijay A. Raju",
+            "name": "The Perennial Project",
             "url": "https://your-domain.com",
             "logo": "https://your-domain.com/images/Vijay - About.jpeg",
             "sameAs": [
@@ -57,7 +59,7 @@ export default function Layout({ children }) {
             {/* Middle: Tagline (hidden on mobile, shown on desktop) */}
             <div className="hidden md:flex flex-1 px-2 text-center">
               <span className="font-bold text-gray-900 text-xs sm:text-sm md:text-base mx-auto">
-                Strategist. Innovator. Storyteller
+                Want an impactful second half of your life?
               </span>
             </div>
 
@@ -136,7 +138,7 @@ export default function Layout({ children }) {
       <footer className="bg-white border-t">
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <p className="text-center text-gray-500">
-            © {new Date().getFullYear()} Vijay A. Raju. All rights reserved.
+            © {new Date().getFullYear()} The Perennial Project. All rights reserved.
           </p>
         </div>
       </footer>
