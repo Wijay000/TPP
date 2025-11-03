@@ -30,27 +30,7 @@ export default function Insights() {
         </div>
       </section>
 
-      <header className="mb-10 sm:mb-12">
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 text-left">6 Community Principles</h1>
-        <p className="text-base sm:text-lg text-gray-600">Guidelines to help you contribute, learn and grow with the group.</p>
-      </header>
-
-      <section>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {principles.map((p, i) => (
-            <div key={i} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0">
-                  <div className="w-10 h-10 rounded-full bg-[#b80a2c] text-white flex items-center justify-center font-semibold">{i + 1}</div>
-                </div>
-                <div>
-                  <p className="text-gray-700 text-base leading-relaxed whitespace-pre-line">{p}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* Principles moved to The Principles page */}
     </div>
   )
 }
