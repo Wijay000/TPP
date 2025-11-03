@@ -51,8 +51,8 @@ export default function Layout({ children }) {
             {/* Left: Logo (link to home) */}
             <div className="flex items-center">
               <Link href="/">
-                <a className="inline-block -mt-1">
-                  <img src="/images/TPP - Logo.png" alt="TPP Logo" className="h-8 w-auto" />
+                <a className="inline-block">
+                  <img src="/images/TPP - Logo.png" alt="TPP Logo" className="h-[18px] w-auto" />
                 </a>
               </Link>
             </div>
