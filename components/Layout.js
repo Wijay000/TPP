@@ -48,10 +48,12 @@ export default function Layout({ children }) {
       <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
-            {/* Left: Name */}
+            {/* Left: Logo (link to home) */}
             <div className="flex items-center">
-              <Link href="/about">
-                <span className="text-lg font-medium hover:text-primary transition-colors" style={{ fontSize: '18px' }}>Vijay A. Raju</span>
+              <Link href="/">
+                <a className="inline-block -mt-1">
+                  <img src="/images/TPP - Logo.png" alt="TPP Logo" className="h-8 w-auto" />
+                </a>
               </Link>
             </div>
 
