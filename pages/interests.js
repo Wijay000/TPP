@@ -14,6 +14,12 @@ export default function Interests() {
       thumbnail: "/images/Interests - TPP.jpg",
       type: "article"
     },
+    {
+      title: "Knowledge Exchange",
+      url: "/knowledge-exchange",
+      thumbnail: "/images/Interests - TPP.jpg",
+      type: "article"
+    }
   ];
 
   return (
@@ -24,7 +30,7 @@ export default function Interests() {
         className="text-center mb-10 sm:mb-12"
       >
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          Interests
+          Initiatives
         </h1>
       </motion.div>
 

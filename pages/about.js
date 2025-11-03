@@ -4,7 +4,7 @@ import SEO from '../components/SEO'
 export default function About() {
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <SEO title="About" description="Vijay A. Raju — strategist, innovator and storyteller. Learn about experience, education and impact." url="/about" image="/images/og-image.svg" />
+      <SEO title="About" description="The Perennial Project" url="/about" image="/images/og-image.svg" />
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -13,13 +13,13 @@ export default function About() {
         <div className="mb-8 mt-6">
           <img
             src="/images/About Vijay.jpeg"
-            alt="Vijay A. Raju"
+            alt="The Perennial Project"
             className="w-48 h-48 rounded-full mx-auto object-cover shadow-lg"
           />
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
           <h1 className="text-4xl font-bold text-gray-900">
-            Vijay A. Raju
+            The Perennial Project
           </h1>
           
         </div>
