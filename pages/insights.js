@@ -15,18 +15,37 @@ export default function Insights() {
       <SEO title="The Community" description="Community principles for participation and practice." url="/insights" image="/images/og-image.svg" />
 
       <section className="mb-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 text-left">“What if your second act could be your strongest yet?”</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+          {/* Left: video card */}
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="w-full aspect-video bg-black">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/ppQPiU-6PCE"
+                title="Community intro video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
 
-        <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-          <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-            There comes a moment in midlife when the old rhythms stop fitting. Fitness isn’t just about strength. It’s about reclaiming your energy, your confidence, your spark.
-            {'\n'}
-            If you’re a mid- or late-career professional ready to reinvent your path, this is your space.
-            {'\n'}
-            A place to find new friends who get it, a community that listens without judgment, and a circle that challenges you to grow beyond comfort.
-            {'\n'}
-            {'\n'}Because reinvention begins where routine ends.
-          </p>
+          {/* Right: heading + text */}
+          <div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-left">“What if your second act could be your strongest yet?”</h2>
+
+            <div className="bg-white rounded-lg shadow-md p-6">
+              <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                There comes a moment in midlife when the old rhythms stop fitting. Fitness isn’t just about strength. It’s about reclaiming your energy, your confidence, your spark.
+                {'\n'}
+                If you’re a mid- or late-career professional ready to reinvent your path, this is your space.
+                {'\n'}
+                A place to find new friends who get it, a community that listens without judgment, and a circle that challenges you to grow beyond comfort.
+                {'\n'}
+                {'\n'}Because reinvention begins where routine ends.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
