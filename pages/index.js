@@ -20,6 +20,17 @@ export default function Home() {
         <p className="text-2xl md:text-xl lg:text-2xl text-gray-700 mb-3 md:mb-4 leading-relaxed">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSejyrmbr8n50AGP6UpAQoSjiEM-0hCekJ5LdTNs6cn-KDLgYQ/viewform?fbzx=3478091300017295426">Join the Community.</a>
         </p>
+
+        {/* Button to make the link more visible */}
+        <div className="mt-6">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSejyrmbr8n50AGP6UpAQoSjiEM-0hCekJ5LdTNs6cn-KDLgYQ/viewform?fbzx=3478091300017295426"
+            className="inline-flex items-center px-6 py-2 bg-logo-green hover:bg-logo-green/90 text-white font-semibold rounded-lg shadow-md transition-colors"
+            aria-label="Join the Community"
+          >
+            Join the Community
+          </a>
+        </div>
       </motion.div>
     </div>
   )
