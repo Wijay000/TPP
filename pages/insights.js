@@ -25,7 +25,7 @@ export default function Insights() {
               </div>
 
               {/* screen area - portrait phone aspect */}
-              <div style={{aspectRatio: '9/19.5', background: '#000'}}>
+              <div style={{aspectRatio: '9/16', background: '#000'}}>
                 <iframe
                   className="w-full h-full"
                   src="https://www.youtube.com/embed/ppQPiU-6PCE"
