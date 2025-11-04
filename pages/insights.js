@@ -32,27 +32,33 @@ export default function Insights() {
             </a>
 
             <a
-              href="#"
+              href="https://www.theatlantic.com/magazine/archive/2019/07/work-peak-professional-decline/590650/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow"
-              aria-label="Professional decline starts much earlier than we think - Your Work Peak Is Earlier Than You Think - The Atlantic"
+              aria-label="Professional decline starts much earlier than we think - The Atlantic"
             >
               <h3 className="font-semibold text-lg text-gray-900">Professional decline starts much earlier than we think</h3>
               <p className="text-sm text-gray-500 mt-2">Your Work Peak Is Earlier Than You Think - The Atlantic</p>
             </a>
 
             <a
-              href="#"
+              href="https://charterhouse-mayo.org/news/how-to-find-purpose-in-life"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow"
-              aria-label="Uncertainty regarding purpose and meaning in life as we age - How to Find Purpose in Life: Strategies For Healthy Aging - Charter House"
+              aria-label="Uncertainty regarding purpose and meaning in life as we age - Charter House"
             >
               <h3 className="font-semibold text-lg text-gray-900">Uncertainty regarding purpose and meaning in life as we age</h3>
               <p className="text-sm text-gray-500 mt-2">How to Find Purpose in Life: Strategies For Healthy Aging - Charter House</p>
             </a>
 
             <a
-              href="#"
+              href="https://hbr.org/2018/07/research-the-average-age-of-a-successful-startup-founder-is-45"
+              target="_blank"
+              rel="noopener noreferrer"
               className="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow"
-              aria-label="Entrepreneurial success increases with age - Research: The Average Age of a Successful Startup Founder Is 45"
+              aria-label="Entrepreneurial success increases with age - Harvard Business Review"
             >
               <h3 className="font-semibold text-lg text-gray-900">Entrepreneurial success increases with age</h3>
               <p className="text-sm text-gray-500 mt-2">Research: The Average Age of a Successful Startup Founder Is 45</p>
