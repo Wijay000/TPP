@@ -15,8 +15,8 @@ export default function Insights() {
       <SEO title="The Community" description="Community principles for participation and practice." url="/insights" image="/images/og-image.svg" />
 
       <section className="mb-8">
-        {/* Why Reinvent? section */}
-        <div className="mb-8 text-left">
+  {/* Why Reinvent? section */}
+  <div id="why-reinvent" className="mb-8 text-left">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Why Reinvent?</h2>
           <p className="text-base sm:text-lg text-gray-600">Ideas and research that explain why reinvention matters in midlife.</p>
 
