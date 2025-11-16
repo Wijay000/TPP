@@ -50,8 +50,8 @@ export default function WhyReinvent() {
                 </div>
               </div>
               
-              <div className="bg-gray-900 rounded-2xl p-8 sm:p-10">
-                <p className="text-xl sm:text-2xl text-white leading-relaxed">
+              <div className="bg-white border-2 border-gray-900 rounded-2xl p-8 sm:p-10">
+                <p className="text-xl sm:text-2xl text-gray-900 leading-relaxed">
                   You built your life on speed, but the rules are changing, and your time is shrinking.
                 </p>
                 <p className="text-xl sm:text-2xl font-semibold text-logo-green mt-6 leading-relaxed">
