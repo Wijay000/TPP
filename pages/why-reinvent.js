@@ -17,7 +17,7 @@ export default function WhyReinvent() {
                 THE OBSOLESCENCE GAP: YOUR CLOCK IS RUNNING.
               </h2>
               
-              <div className="grid md:grid-cols-3 gap-6 mb-10">
+              <div className="grid md:grid-cols-3 gap-4 mb-8">
                 {/* Three threat cards */}
                 <div className="bg-white border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-logo-green transition-all">
                   <div className="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center mb-4">
