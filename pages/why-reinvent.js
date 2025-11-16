@@ -20,25 +20,54 @@ export default function WhyReinvent() {
 
       {/* Section 2: The Obsolescence Gap */}
       <section className="py-16 sm:py-24 bg-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl shadow-xl border border-red-100 overflow-hidden">
-            <div className="p-8 sm:p-12 lg:p-16">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative">
+            {/* Accent line */}
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-red-500 to-orange-500"></div>
+            
+            <div className="pl-8 sm:pl-12">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
+                THE OBSOLESCENCE GAP: YOUR CLOCK IS RUNNING.
+              </h2>
+              
+              <div className="grid md:grid-cols-3 gap-6 mb-10">
+                {/* Three threat cards */}
+                <div className="bg-gradient-to-br from-red-50 to-white border border-red-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="w-10 h-10 rounded-lg bg-red-100 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">Internal Fear</h3>
+                  <p className="text-gray-700">Career plateauing sooner than expected</p>
                 </div>
-                <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                  THE OBSOLESCENCE GAP: YOUR CLOCK IS RUNNING.
-                </h2>
+                
+                <div className="bg-gradient-to-br from-orange-50 to-white border border-orange-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">External Threat</h3>
+                  <p className="text-gray-700">Automation replacing expertise</p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-amber-50 to-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2">Daily Grind</h3>
+                  <p className="text-gray-700">Time consumed without meaningful action</p>
+                </div>
               </div>
               
-              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
-                <p>
-                  The challenge you feel is threefold: the <span className="font-semibold text-gray-900">internal fear of a career plateauing</span> sooner than expected, the <span className="font-semibold text-gray-900">external threat of automation</span>, and the <span className="font-semibold text-gray-900">daily grind consuming the time</span> you need for meaningful action. You built your life on speed, but the rules are changing, and your time is shrinking.
+              <div className="bg-gray-900 rounded-2xl p-8 sm:p-10">
+                <p className="text-xl sm:text-2xl text-white leading-relaxed">
+                  You built your life on speed, but the rules are changing, and your time is shrinking.
                 </p>
-                <p className="text-xl font-medium text-gray-900 pt-4 border-t border-red-200">
+                <p className="text-xl sm:text-2xl font-semibold text-red-400 mt-6 leading-relaxed">
                   You've mastered the rules of the last economy. Are you designing the future, or are you about to be replaced by an algorithm?
                 </p>
               </div>
