@@ -6,7 +6,7 @@ export default function WhyReinvent() {
       <SEO title="Why Reinvent?" description="Why reinvention matters" url="/why-reinvent" image="/images/og-image.svg" />
       
       {/* Section 2: The Obsolescence Gap */}
-      <section className="py-16 sm:py-24 bg-white">
+      <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative">
             {/* Accent line */}
@@ -17,7 +17,7 @@ export default function WhyReinvent() {
                 THE OBSOLESCENCE GAP: YOUR CLOCK IS RUNNING.
               </h2>
               
-              <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <div className="grid md:grid-cols-3 gap-6 mb-10">
                 {/* Three threat cards */}
                 <div className="bg-white border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-logo-green transition-all">
                   <div className="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center mb-4">
@@ -64,7 +64,7 @@ export default function WhyReinvent() {
       </section>
 
       {/* Section 3: Wisdom Is Not Enough - Action Card */}
-      <section className="py-16 sm:py-24 bg-gradient-to-b from-white to-gray-50">
+      <section className="py-12 sm:py-16 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-logo-green to-green-800 rounded-2xl shadow-2xl overflow-hidden">
             <div className="p-8 sm:p-12 lg:p-16">
@@ -90,7 +90,7 @@ export default function WhyReinvent() {
       </section>
 
       {/* Section 4: Pass The Test - CTA */}
-      <section className="py-16 sm:py-24 bg-gray-50">
+      <section className="py-12 sm:py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-white rounded-2xl shadow-xl border border-gray-200 p-8 sm:p-12 lg:p-16">
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-logo-green mb-6">
