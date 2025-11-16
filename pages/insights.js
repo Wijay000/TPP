@@ -5,6 +5,114 @@ export default function Insights() {
     <div className="min-h-screen bg-white">
       <SEO title="The Community" description="Community principles for participation and practice." url="/insights" image="/images/og-image.svg" />
 
+      {/* Pain Points & Pathways Section */}
+      <section className="py-12 sm:py-16 bg-white border-b border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3">You're Not Alone</h2>
+            <p className="text-lg text-gray-600">Every challenge has a path forward. Here's how we help.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Card 1 */}
+            <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 hover:border-logo-green transition-all">
+              <div className="flex items-start gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gray-300 flex-shrink-0 mt-1"></div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "I'm struggling to adapt to tech-driven industries. I don't know where to start."
+                </p>
+              </div>
+              <div className="pl-11">
+                <h3 className="text-sm font-bold text-logo-green uppercase tracking-wide mb-2">Your Path Forward:</h3>
+                <p className="text-gray-900 leading-relaxed">
+                  Learn to leverage your deep expertise in new contexts. Tech is a tool, not a barrier.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 hover:border-logo-green transition-all">
+              <div className="flex items-start gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gray-300 flex-shrink-0 mt-1"></div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "Ageism is real and I want to stay relevant."
+                </p>
+              </div>
+              <div className="pl-11">
+                <h3 className="text-sm font-bold text-logo-green uppercase tracking-wide mb-2">Your Path Forward:</h3>
+                <p className="text-gray-900 leading-relaxed">
+                  Position your experience as premium value. Become undeniable through reinvention.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 hover:border-logo-green transition-all">
+              <div className="flex items-start gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gray-300 flex-shrink-0 mt-1"></div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "I'm divorced and lonely. Life feels boring."
+                </p>
+              </div>
+              <div className="pl-11">
+                <h3 className="text-sm font-bold text-logo-green uppercase tracking-wide mb-2">Your Path Forward:</h3>
+                <p className="text-gray-900 leading-relaxed">
+                  Rebuild from a place of strength. Design a life so compelling you're excited to wake up.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 4 */}
+            <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 hover:border-logo-green transition-all">
+              <div className="flex items-start gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gray-300 flex-shrink-0 mt-1"></div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "I chased success and money. Now I want meaning."
+                </p>
+              </div>
+              <div className="pl-11">
+                <h3 className="text-sm font-bold text-logo-green uppercase tracking-wide mb-2">Your Path Forward:</h3>
+                <p className="text-gray-900 leading-relaxed">
+                  Channel your drive toward impact. Success without meaning is empty—combine both.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 5 */}
+            <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 hover:border-logo-green transition-all">
+              <div className="flex items-start gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gray-300 flex-shrink-0 mt-1"></div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "My health is declining. I don't want to be sick."
+                </p>
+              </div>
+              <div className="pl-11">
+                <h3 className="text-sm font-bold text-logo-green uppercase tracking-wide mb-2">Your Path Forward:</h3>
+                <p className="text-gray-900 leading-relaxed">
+                  Take radical ownership of your body. Build strength, energy, and vitality for decades ahead.
+                </p>
+              </div>
+            </div>
+
+            {/* Card 6 */}
+            <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 hover:border-logo-green transition-all">
+              <div className="flex items-start gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-gray-300 flex-shrink-0 mt-1"></div>
+                <p className="text-gray-700 italic leading-relaxed">
+                  "I want a new career but don't know how to shift."
+                </p>
+              </div>
+              <div className="pl-11">
+                <h3 className="text-sm font-bold text-logo-green uppercase tracking-wide mb-2">Your Path Forward:</h3>
+                <p className="text-gray-900 leading-relaxed">
+                  Map your transferable skills and passions. Create a strategic roadmap with accountability.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="py-12 sm:py-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
