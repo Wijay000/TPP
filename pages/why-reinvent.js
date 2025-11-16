@@ -84,7 +84,7 @@ export default function WhyReinvent() {
             </div>
             
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Pass The Test. Imagine your place in the future.
+              Imagine your place in the future. Become a Perennial.
             </h2>
             
             <p className="text-xl text-gray-700 leading-relaxed mb-10">
