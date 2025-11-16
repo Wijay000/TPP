@@ -2,28 +2,15 @@ import SEO from '../components/SEO'
 
 export default function WhyReinvent() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+    <div className="min-h-screen bg-white">
       <SEO title="Why Reinvent?" description="Why reinvention matters" url="/why-reinvent" image="/images/og-image.svg" />
       
-      {/* Section 1: The Relevance Test - Hero Impact */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-logo-green py-20 sm:py-32">
-        <div className="absolute inset-0 bg-[url('/images/grid.svg')] opacity-10"></div>
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8 tracking-tight">
-            THE RELEVANCE TEST.
-          </h1>
-          <p className="text-xl sm:text-2xl text-gray-100 leading-relaxed max-w-3xl mx-auto">
-            You've mastered the rules of the last economy. Are you designing the future, or are you about to be replaced by obsolescence and burnout?
-          </p>
-        </div>
-      </section>
-
       {/* Section 2: The Obsolescence Gap */}
       <section className="py-16 sm:py-24 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative">
             {/* Accent line */}
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-red-500 to-orange-500"></div>
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-logo-green"></div>
             
             <div className="pl-8 sm:pl-12">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 leading-tight">
@@ -32,9 +19,9 @@ export default function WhyReinvent() {
               
               <div className="grid md:grid-cols-3 gap-6 mb-10">
                 {/* Three threat cards */}
-                <div className="bg-gradient-to-br from-red-50 to-white border border-red-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-10 h-10 rounded-lg bg-red-100 flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-logo-green transition-all">
+                  <div className="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
                     </svg>
                   </div>
@@ -42,9 +29,9 @@ export default function WhyReinvent() {
                   <p className="text-gray-700">Career plateauing sooner than expected</p>
                 </div>
                 
-                <div className="bg-gradient-to-br from-orange-50 to-white border border-orange-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-logo-green transition-all">
+                  <div className="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
                     </svg>
                   </div>
@@ -52,9 +39,9 @@ export default function WhyReinvent() {
                   <p className="text-gray-700">Automation replacing expertise</p>
                 </div>
                 
-                <div className="bg-gradient-to-br from-amber-50 to-white border border-amber-100 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
-                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center mb-4">
-                    <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="bg-white border-2 border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-logo-green transition-all">
+                  <div className="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center mb-4">
+                    <svg className="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
@@ -67,8 +54,8 @@ export default function WhyReinvent() {
                 <p className="text-xl sm:text-2xl text-white leading-relaxed">
                   You built your life on speed, but the rules are changing, and your time is shrinking.
                 </p>
-                <p className="text-xl sm:text-2xl font-semibold text-red-400 mt-6 leading-relaxed">
-                  You've mastered the rules of the last economy. Are you designing the future, or are you about to be replaced by an algorithm?
+                <p className="text-xl sm:text-2xl font-semibold text-logo-green mt-6 leading-relaxed">
+                  You've mastered the rules of the last economy. Are you designing the future, or are you about to be replaced by an algorithm, obsolescence and irrelevance?
                 </p>
               </div>
             </div>
