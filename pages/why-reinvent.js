@@ -59,13 +59,13 @@ export default function WhyReinvent() {
                   </svg>
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-white">
-                  WISDOM IS NOT ENOUGH—ACTION IS.
+                  WISDOM IS NOT ENOUGH, ACTION IS.
                 </h2>
               </div>
               
               <div className="space-y-6 text-lg text-white leading-relaxed">
                 <p className="text-green-50">
-                  The time for reflection is over. You need a strategy to protect yourself from the internal slump, the external threat, and the daily grind. Vijay A. Raju provides the framework to leverage your executive judgment into the irreplaceable, high-value component that technology cannot touch, ensuring your second half is defined by impact, not consumption.
+                  The time for reflection is over. You need a strategy to protect yourself from the internal slump, the external threat, and the daily grind. The Perennial Project provides the framework to leverage your executive judgment into the irreplaceable, high-value component that technology cannot touch, ensuring your second half is defined by impact, not consumption.
                 </p>
               </div>
             </div>
